@@ -40,7 +40,6 @@ function toggle() {
       )}
     </div>
   )
-}
 
 export default function Sidebar({ tree, selectedCat, expandedCats, setExpandedCats, onSelect, countInCat, totalCount }) {
   return (

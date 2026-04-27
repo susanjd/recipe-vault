@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect, useCallback } from 'react'
 import { DEFAULT_RECIPES, CATEGORY_TREE } from './data'
 import Sidebar from './components/Sidebar'

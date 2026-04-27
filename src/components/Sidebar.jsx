@@ -51,7 +51,7 @@ export default function Sidebar({ tree, selectedCat, expandedCats, setExpandedCa
   return (
     <nav className="sidebar">
       <div className="sidebar-label">Browse</div>
-      <div
+      <div 
         className={`cat-item${selectedCat === 'all' ? ' active' : ''}`}
         onClick={() => onSelect('all')}
         style={{ paddingLeft: 16 }}

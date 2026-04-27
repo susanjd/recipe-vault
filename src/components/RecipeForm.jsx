@@ -1,4 +1,4 @@
-jsximport { useState } from 'react'
+import { useState } from 'react'
 import { ALL_CATS } from '../App'
 
 function newId() {

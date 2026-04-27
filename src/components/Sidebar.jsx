@@ -1,10 +1,5 @@
-function CatNode({ name, children, depth, selectedCat, expandedCats, setExpandedCats, onSelect, countInCat }) {
-  const hasChildren = children && Object.keys(children).length > 0
-  const isExpanded = expandedCats[name]
-  const isActive = selectedCat === name
-  const count = countInCat(name)
-
-  function toggle() {
+import React from 'react'
+function toggle() {
     if (hasChildren) {
       setExpandedCats(prev => ({ ...prev, [name]: !prev[name] }))
     }

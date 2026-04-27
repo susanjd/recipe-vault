@@ -1,6 +1,3 @@
-Now src/data.js — this is the big one with all your recipes. Paste it all:
-
-js
 export const DEFAULT_RECIPES = [
   {
     id: 'r1',

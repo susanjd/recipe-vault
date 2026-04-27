@@ -1,3 +1,4 @@
+import React from 'react'
 function CatNode({ name, children, depth, selectedCat, expandedCats, setExpandedCats, onSelect, countInCat }) {
   const hasChildren = children && Object.keys(children).length > 0
   const isExpanded = expandedCats[name]
